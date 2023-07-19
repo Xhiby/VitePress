@@ -1,20 +1,22 @@
-#!/usr/bin/env sh
+# 有错误抛出错误
+set -e 
  
-# 忽略错误
-set -e  #有错误抛出错误
+# 打包
+npm run docs:build
  
-# 构建
-npm run docs:build  #然后执行打包命令
+# 进到dist目录
+cd docs/.vitepress/dist
  
-# 进入待发布的目录
-cd docs/.vitepress/dist  #进到dist目录
- 
-git init  #执行这些git命令
+# 执行这些git命令
+git init  
 git add -A
 git commit -m 'deploy'
  
-git push -f https://github.com/Xhiby/VitePress.git master:pages  #提交到这个分支
- 
+# 提交到这个分支
+git push -f https://github.com/Xhiby/VitePress.git master:pages  
+
+# 返回项目根目录
 cd -
  
-rm -rf docs/.vitepress/dist  #删除dist文件夹
+# 删除dist文件夹
+rm -rf docs/.vitepress/dist  
