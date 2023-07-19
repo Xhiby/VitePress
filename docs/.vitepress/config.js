@@ -2,21 +2,18 @@ import { defineConfig } from "vitepress"
 
 export default defineConfig({
   title: "my-NoteBook",
+  base: "/VitePress/",
   themeConfig: {
     nav: [{ text: "关于", link: "/about" }],
 
     sidebar: [
       {
         text: "计算机网络",
-        items: [
-          { text: "TCP/IP", link: "/computerNetworks/TCPIP" },
-        ]
+        items: [{ text: "TCP/IP", link: "/computerNetworks/TCPIP" }]
       },
       {
         text: "TypeScript",
-        items: [
-          { text: "开始", link: "/typeScript/index" },
-        ]
+        items: [{ text: "开始", link: "/typeScript/index" }]
       },
       {
         text: "TailWind",
@@ -28,6 +25,6 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }]
+    socialLinks: [{ icon: "github", link: "https://github.com/Xhiby/VitePress" }]
   }
 })
