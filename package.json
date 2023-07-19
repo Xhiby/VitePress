@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "vitepress": "1.0.0-alpha.50"
+  },
+  "scripts": {
+    "deploy": "bash deploy.sh",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  }
+}
