@@ -13,11 +13,18 @@ export default defineConfig({
       },
       {
         text: "TypeScript",
-        items: [{ text: "开始", link: "/typeScript/index" }]
+        items: [
+          { text: "基础", link: "/typeScript/base" },
+          { text: "对象", link: "/typeScript/object" },
+          { text: "数组", link: "/typeScript/array" },
+          { text: "章节测试一", link: "/typeScript/chapterTset_1" },
+          { text: "函数", link: "/typeScript/function" },
+          { text: "类", link: "/typeScript/class" }
+        ]
       },
       {
         text: "TailWind",
-        items: [{ text: "安装配置", link: "/tailWind/index" }]
+        items: [{ text: "安装配置", link: "/tailWind/config" }]
       },
       {
         text: "前端报错",

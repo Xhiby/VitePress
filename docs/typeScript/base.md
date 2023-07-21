@@ -56,7 +56,7 @@ let n: null = null
 
 ## 任意类型
 
-在说复杂类型之前我们先说一种特殊的类型，在使用 TypeScript 的人群中，有一部分人会戏称自己使用的是 AnyScript，表示自己在声明类型时只会声明 any 类型
+在说其他类型之前我们先说一种特殊的类型，在使用 TypeScript 的人群中，有一部分人会戏称自己使用的是 AnyScript，表示自己在声明类型时只会声明 any 类型
 
 ```ts
 let anyVar: any = "any"
@@ -65,3 +65,26 @@ let anyVar: any = "any"
 > 使用 any 类型声明的变量在运行时允许被赋值为任意类型 http://ts.xcatliu.com/basics/any.html
 
 同时如果一个变量在声明时没有指定类型，它会默认为 any 类型，也就是说如果你在 TypeScript 中所有需要指定类型的地方使用 any 类型，那么这将和直接使用 JavaScript 没有区别
+
+## 组合类型
+
+这个就是字面意思，你可以为一个变量声明多个类型，只要变量的类型是其中一个即可
+
+```ts
+let strNum: string | number = "0"
+```
+
+### 组合类型的属性或方法
+
+```ts
+function getLength(temp: string | number): number {
+  return temp.length
+}
+```
+
+输入你输入上述代码，编辑器将会报错
+![](../assets/images/error.png)
+
+所以当你使用组合类型的属性或方法时千万注意，该变量的所有类型都需要支持你使用的属性或方法
+
+另外，联合类型的变量也会在运行时根据具体的值来变化自己的类型
