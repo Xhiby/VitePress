@@ -83,7 +83,7 @@ function getLength(temp: string | number): number {
 ```
 
 输入你输入上述代码，编辑器将会报错
-![](../assets/images/error.png)
+![](../assets/images/typeScript/error.png)
 
 所以当你使用组合类型的属性或方法时千万注意，该变量的所有类型都需要支持你使用的属性或方法
 

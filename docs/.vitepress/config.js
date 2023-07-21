@@ -29,6 +29,10 @@ export default defineConfig({
       {
         text: "前端报错",
         items: [{ text: "列表", link: "/error/index" }]
+      },
+      {
+        text: "人类迷惑行为大赏",
+        items: [{ text: "列表", link: "/humanConfuse/list" }]
       }
     ],
 
