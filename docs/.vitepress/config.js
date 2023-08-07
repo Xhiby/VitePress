@@ -27,6 +27,17 @@ export default defineConfig({
         items: [{ text: "安装配置", link: "/tailWind/config" }]
       },
       {
+        text: "electron",
+        items: [{ text: "安装", link: "/electron/install" }]
+      },
+      {
+        text: "cocos2D",
+        items: [
+          { text: "介绍", link: "/cocos/overview" },
+          { text: "安装", link: "/cocos/install" }
+        ]
+      },
+      {
         text: "前端报错",
         items: [{ text: "列表", link: "/error/index" }]
       },
