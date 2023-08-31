@@ -1,13 +1,58 @@
 ## 概述
 
-Electron 是一个使用 Web 前端技术构建客户端应用的框架，可以让浏览器上的 Web 应用以 Windows 应用的形式在 Windows 系统上运行
-
-## 原理
-
-听起来好像挺神奇，下面我们将从应用和代码两方面说明 Electron 的原理
-
-### 应用
-
-首先，比如 Chrome、火狐这些都是浏览器，浏览器本来就是 Windows 程序，他们可以使用各种系统上的功能，然后他们还是一个容器，用来运行 Web 程序，但因为浏览器的限制导致上面运行的 Web 程序性能都比较弱，然后假如去除掉浏览器的限制，让浏览器上运行的 Web 程序也能像 Windows 程序一样可以使用系统的功能，那么这就是 Electron。
+Electron 是一个使用 Web 前端技术构建客户端应用的框架，可以让浏览器上的 Web 应用直接运行在客户端
 
 ## 创建项目
+
+初始化一个 npm 项目
+
+```cmd
+npm init
+```
+
+创建初始化 npm 项目时选择的入口 js 文件
+
+安装 Electron
+
+```cmd
+npm install --save-dev electron
+```
+
+创建一个 HTML 文件
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Hello World</h1>
+  </body>
+</html>
+```
+
+入口 js 文件写入
+
+```js
+// 引入要用的 模块
+const { app, BrowserWindow } = require("electron")
+
+// 创建窗口的函数
+const createWindow = () => {
+  const win = new BrowserWindow({
+    width: 800,
+    height: 600
+  })
+
+  // 窗口将在哪个文件加载
+  win.loadFile("index.html")
+}
+
+// 在whenReady内调用方法
+app.whenReady().then(() => {
+  createWindow()
+})
+```
+
+如果你完成上述步骤，桌面上将出现一个窗口显示 Hello World
