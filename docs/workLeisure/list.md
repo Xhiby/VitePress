@@ -8,7 +8,7 @@
 
 ---
 
-![](../assets/images/humanConfuse/item1.png)
+![](../assets/images/workLeisure/item1.png)
 
 ---
 
@@ -16,7 +16,7 @@
 
 ---
 
-![](../assets/images/humanConfuse/item2.png)
+![](../assets/images/workLeisure/item2.png)
 
 ---
 
@@ -24,7 +24,7 @@ class 名称居然是 aaaa，这比我之前遇到的 aa 还要强大一个等�
 
 ---
 
-![](../assets/images/humanConfuse/item3.png)
+![](../assets/images/workLeisure/item3.png)
 
 ---
 
@@ -35,7 +35,7 @@ class 名称居然是 aaaa，这比我之前遇到的 aa 还要强大一个等�
 
 ---
 
-![](../assets/images/humanConfuse/item4.png)
+![](../assets/images/workLeisure/item4.png)
 
 ---
 
@@ -45,7 +45,7 @@ class 名称居然是 aaaa，这比我之前遇到的 aa 还要强大一个等�
 
 ---
 
-![](../assets/images/humanConfuse/item5.png)
+![](../assets/images/workLeisure/item5.png)
 
 ---
 
@@ -60,20 +60,20 @@ class 名称居然是 aaaa，这比我之前遇到的 aa 还要强大一个等�
 ### 概述
 
 反正就是在表格里做个单选，然后点确定把选中的数据传出去这么一件事，大概长这样，有些信息有点敏感所以隐藏了
-![](../assets/images/humanConfuse/item6.png)
+![](../assets/images/workLeisure/item6.png)
 
 然后这里也看到了表格第一列的单选居然可以选多个，居然还有如此操作，这不得让咱鉴赏一下代码？看看 HTML 先
 
-![](../assets/images/humanConfuse/item7.png)
+![](../assets/images/workLeisure/item7.png)
 
 这里鼠鼠我眉头一皱，v-model 可以这样绑定吗，貌似有哪里不对，但又说不出来哪里有问题，嗯..看看确定按钮的逻辑吧
 
-![](../assets/images/humanConfuse/item8.png)
+![](../assets/images/workLeisure/item8.png)
 
 看起来没啥问题，让我看看这个 addressLine 的来头是什么
 
-![](../assets/images/humanConfuse/item9.png)
+![](../assets/images/workLeisure/item9.png)
 
-![](../assets/images/humanConfuse/item10.png)
+![](../assets/images/workLeisure/item10.png)
 
 ?啊???老哥真就玄学编程啊，难道您在期待 addressLine 能自己变出数据吗?我算是懂了，这项目就是个冤种项目，TMD 功能都没写完就上线？
