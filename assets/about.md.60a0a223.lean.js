@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a as r}from"./app.eccef798.js";const f=JSON.parse('{"title":"关于我","description":"","frontmatter":{},"headers":[],"relativePath":"about.md"}'),o={name:"about.md"},d=r("",6),n=[d];function s(_,c,i,h,p,l){return t(),e("div",null,n)}const m=a(o,[["render",s]]);export{f as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as p}from"./app.eccef798.js";const A=JSON.parse('{"title":"对象","description":"","frontmatter":{},"headers":[],"relativePath":"typeScript/object.md"}'),l={name:"typeScript/object.md"},o=p("",20),e=[o];function t(c,r,y,C,D,F){return a(),n("div",null,e)}const d=s(l,[["render",t]]);export{A as __pageData,d as default};
