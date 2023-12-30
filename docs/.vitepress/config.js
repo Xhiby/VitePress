@@ -21,7 +21,8 @@ export default defineConfig({
           { text: "Vue-cli创建项目", link: "/myNote/vueCliConfig" },
           { text: "Vite创建项目", link: "/myNote/viteConfig" },
           { text: "React创建项目", link: "/myNote/reactConfig" },
-          { text: "GitHub配置SSH公钥", link: "/myNote/gitKeyConfig" }
+          { text: "GitHub配置SSH公钥", link: "/myNote/gitKeyConfig" },
+          { text: "VitePress提交备注", link: "/myNote/vitePressRemark" }
         ]
       },
       {
