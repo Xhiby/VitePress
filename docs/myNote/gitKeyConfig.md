@@ -1,16 +1,17 @@
 # GitHub 配置 SSH 公钥
 
-Tips: 命令基本都需要在 Git Bash 中运行
+Tips1: 命令基本都需要在 Git Bash 中运行
+Tips2: 如果是在 git push 的时候需要你验证，而且你还开了梯子，可以把梯子关了试一下
 
 ### 1. 查看本机是否有公钥
 
-Git Bash 输入
+命令行输入
 
 ```cmd
 cd ~/.ssh ls
 ```
 
-如果有 id_rsa 就 Git Bash 输入
+如果有 id_rsa 就 命令行输入
 
 ```cmd
 cat ~/.ssh/id_rsa.pub
@@ -25,7 +26,7 @@ C:\Users\Administrator\\.ssh
 
 ### 2. 如果没有公钥
 
-Git Bash 输入
+命令行输入
 
 ```cmd
 ssh-keygen -t rsa -C "xxx@xx.com"
