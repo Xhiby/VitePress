@@ -8,8 +8,20 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "计算机网络",
-        items: [{ text: "TCP/IP", link: "/computerNetworks/TCPIP" }]
+        text: "前端常用工具",
+        items: [{ text: "列表", link: "/frontEndTools/index" }]
+      },
+      {
+        text: "各种笔记",
+        items: [
+          { text: "TCP/IP", link: "/myNote/TCPIP" },
+          { text: "TailWind安装配置", link: "/myNote/tailWindConfig" },
+          { text: "electron安装配置", link: "/myNote/electronConfig" },
+          { text: "cocos安装配置", link: "/myNote/cocosConfig" },
+          { text: "Vue-cli创建项目", link: "/myNote/vueCliConfig" },
+          { text: "Vite创建项目", link: "/myNote/viteConfig" },
+          { text: "React创建项目", link: "/myNote/reactConfig" }
+        ]
       },
       {
         text: "TypeScript",
@@ -23,27 +35,12 @@ export default defineConfig({
         ]
       },
       {
-        text: "TailWind",
-        items: [{ text: "安装配置", link: "/tailWind/config" }]
-      },
-      {
-        text: "electron",
-        items: [{ text: "安装", link: "/electron/install" }]
-      },
-      {
-        text: "cocos2D",
-        items: [
-          { text: "介绍", link: "/cocos/overview" },
-          { text: "安装", link: "/cocos/install" }
-        ]
-      },
-      {
         text: "前端报错",
         items: [{ text: "列表", link: "/error/index" }]
       },
       {
-        text: "人类迷惑行为大赏",
-        items: [{ text: "列表", link: "/humanConfuse/list" }]
+        text: "工作闲暇",
+        items: [{ text: "列表", link: "/workLeisure/list" }]
       }
     ],
 
