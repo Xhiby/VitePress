@@ -6,5 +6,5 @@ hero:
   actions:
     - theme: brand
       text: Start →
-      link: /frontEndTools/index
+      link: /frontEndTools/tools
 ---

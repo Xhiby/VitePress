@@ -8,21 +8,31 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "前端常用工具",
-        items: [{ text: "列表", link: "/frontEndTools/index" }]
+        text: "前端常用",
+        items: [
+          { text: "工具列表", link: "/frontEndTools/tools" },
+          { text: "报错列表", link: "/frontEndTools/error" }
+        ]
       },
       {
         text: "各种笔记",
         items: [
           { text: "TCP/IP", link: "/myNote/TCPIP" },
           { text: "TailWind安装配置", link: "/myNote/tailWindConfig" },
-          { text: "electron安装配置", link: "/myNote/electronConfig" },
           { text: "cocos安装配置", link: "/myNote/cocosConfig" },
           { text: "Vue-cli创建项目", link: "/myNote/vueCliConfig" },
           { text: "Vite创建项目", link: "/myNote/viteConfig" },
+          { text: "Vite项目设置@", link: "/myNote/viteSet@" },
           { text: "React创建项目", link: "/myNote/reactConfig" },
           { text: "GitHub配置SSH公钥", link: "/myNote/gitKeyConfig" },
           { text: "VitePress提交备注", link: "/myNote/vitePressRemark" }
+        ]
+      },
+      {
+        text: "Electron",
+        items: [
+          { text: "安装", link: "/electron/summary" },
+          { text: "前置知识", link: "/electron/preKnowledge" }
         ]
       },
       {
@@ -35,10 +45,6 @@ export default defineConfig({
           { text: "函数", link: "/typeScript/function" },
           { text: "类", link: "/typeScript/class" }
         ]
-      },
-      {
-        text: "前端报错",
-        items: [{ text: "列表", link: "/error/index" }]
       },
       {
         text: "工作闲暇",
