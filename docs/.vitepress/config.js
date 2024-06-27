@@ -25,7 +25,8 @@ export default defineConfig({
           { text: "Vite项目设置@", link: "/myNote/viteSet@" },
           { text: "React创建项目", link: "/myNote/reactConfig" },
           { text: "GitHub配置SSH公钥", link: "/myNote/gitKeyConfig" },
-          { text: "VitePress提交备注", link: "/myNote/vitePressRemark" }
+          { text: "VitePress提交备注", link: "/myNote/vitePressRemark" },
+          { text: "Windows关闭更新", link: "/myNote/turnOffUpdates" }
         ]
       },
       {
