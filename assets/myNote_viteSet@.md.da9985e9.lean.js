@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as l}from"./app.c1731ad8.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"myNote/viteSet@.md"}'),p={name:"myNote/viteSet@.md"},o=l("",4),t=[o];function e(c,r,i,D,y,F){return a(),n("div",null,t)}const d=s(p,[["render",e]]);export{_ as __pageData,d as default};
