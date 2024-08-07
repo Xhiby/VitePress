@@ -31,4 +31,4 @@ npm_mirror: https://npmmirror.com/mirrors/npm/
 
 很多项目各种东西自己配置会很麻烦，建议直接 clone 别人写好的模板
 
-### https://git-scm.com/downloads
+### https://github.com/vitejs/awesome-vite

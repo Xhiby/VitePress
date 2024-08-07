@@ -1,11 +1,11 @@
-import { defineConfig } from "vitepress"
-
-export default defineConfig({
+export default {
   title: "my-NoteBook",
   base: "/VitePress/",
   themeConfig: {
     nav: [{ text: "关于", link: "/about" }],
-
+    search: {
+      provider: "local"
+    },
     sidebar: [
       {
         text: "前端常用",
@@ -17,6 +17,8 @@ export default defineConfig({
       {
         text: "各种笔记",
         items: [
+          { text: "VitePress提交备注", link: "/myNote/vitePressRemark" },
+          { text: "GitHub配置SSH公钥", link: "/myNote/gitKeyConfig" },
           { text: "TCP/IP", link: "/myNote/TCPIP" },
           { text: "TailWind安装配置", link: "/myNote/tailWindConfig" },
           { text: "cocos安装配置", link: "/myNote/cocosConfig" },
@@ -24,9 +26,8 @@ export default defineConfig({
           { text: "Vite创建项目", link: "/myNote/viteConfig" },
           { text: "Vite项目设置@", link: "/myNote/viteSet@" },
           { text: "React创建项目", link: "/myNote/reactConfig" },
-          { text: "GitHub配置SSH公钥", link: "/myNote/gitKeyConfig" },
-          { text: "VitePress提交备注", link: "/myNote/vitePressRemark" },
-          { text: "Windows关闭更新", link: "/myNote/turnOffUpdates" }
+          { text: "Windows关闭更新", link: "/myNote/turnOffUpdates" },
+          { text: "快速删除node_modules", link: "/myNote/delNodeModules" }
         ]
       },
       {
@@ -55,4 +56,4 @@ export default defineConfig({
 
     socialLinks: [{ icon: "github", link: "https://github.com/Xhiby/VitePress" }]
   }
-})
+}
