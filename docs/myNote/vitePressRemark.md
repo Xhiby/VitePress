@@ -11,11 +11,13 @@
 地址是梯子地址和端口
 ```git
 git config --global https.proxy https://127.0.0.1:7897
+git config --global http.proxy http://127.0.0.1:7897
 ```
 
 交完记得还原配置
 ```git
 git config –global –unset https.proxy
+git config –global –unset http.proxy
 ```
 
 3. 文档仓库有两个分支，master 是源代码分支，pages 是源码生成的静态页面的分支
