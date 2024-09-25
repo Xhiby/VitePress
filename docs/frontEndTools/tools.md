@@ -4,9 +4,9 @@
 
 建议先来这个，不然底下很多链接都访问不了
 
-### Clash https://clash-for-windows.updatestar.com/
+### Clash Verge https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.6.0/Clash.Verge_1.6.0_x64-setup.exe
 
-### 机场 https://muguacloud.app/auth/login
+### 机场 https://xn--mes358a9urctx.com/
 
 ## 2. VSCode
 
@@ -19,7 +19,6 @@
 需要去 NVM 的目录，将 settings 后面加上这两行
 node_mirror: https://npmmirror.com/mirrors/node/
 npm_mirror: https://npmmirror.com/mirrors/npm/
-
 
 ### https://github.com/coreybutler/nvm-windows/releases
 
