@@ -27,7 +27,9 @@ export default {
           { text: "Vite项目设置@", link: "/myNote/viteSet@" },
           { text: "React创建项目", link: "/myNote/reactConfig" },
           { text: "Windows关闭更新", link: "/myNote/turnOffUpdates" },
-          { text: "快速删除node_modules", link: "/myNote/delNodeModules" }
+          { text: "快速删除node_modules", link: "/myNote/delNodeModules" },
+          { text: "Vue弹窗", link: "/myNote/vueDialog" },
+          { text: "Git远程地址", link: "/myNote/gitAddress" }
         ]
       },
       {
