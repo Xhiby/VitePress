@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a4 as o}from"./chunks/framework.CGkmJMTS.js";const m=JSON.parse('{"title":"概述","description":"","frontmatter":{},"headers":[],"relativePath":"myNote/TCPIP.md","filePath":"myNote/TCPIP.md"}'),r={name:"myNote/TCPIP.md"},n=o("",6),s=[n];function _(c,i,d,h,l,P){return t(),e("div",null,s)}const T=a(r,[["render",_]]);export{m as __pageData,T as default};
